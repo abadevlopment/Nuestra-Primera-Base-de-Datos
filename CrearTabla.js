@@ -1,6 +1,7 @@
 const { optionsMDB } = require('./options/MariaDB.js')
 const knexMDB = require('knex')(optionsMDB)
 
+
 knexMDB.schema.createTable('products', table => {
     table.increments('id').primary()
     table.string('title').notNullable()

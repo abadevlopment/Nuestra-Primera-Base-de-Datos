@@ -1,6 +1,7 @@
 const socket = io.connect()
 
 // PRODUCTOS
+
 const agregarProducto = document.getElementById('agregarProducto')
 agregarProducto.addEventListener('submit', e => {
     e.preventDefault()

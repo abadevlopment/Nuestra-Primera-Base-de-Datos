@@ -6,6 +6,7 @@ const optionsMDB = {
         password: '',
         database: 'ecommerce'
     } 
+    
 }
 
 module.exports = {

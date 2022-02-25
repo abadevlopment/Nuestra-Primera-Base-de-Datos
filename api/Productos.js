@@ -2,7 +2,7 @@ const { optionsMDB } = require('../options/MariaDB.js')
 const knex = require('knex')(optionsMDB)
 
 const product = [
-    {title: 'asd', thumbnail: 'https://res.cloudinary.com/dvinxey2w/image/upload/v1642719248/ABA/ICONS%2032PX/config-75_nf1q9y.svg', price: 100},
+    {title: 'asd', thumb nail: 'https://res.cloudinary.com/dvinxey2w/image/upload/v1642719248/ABA/ICONS%2032PX/config-75_nf1q9y.svg', price: 100},
     {title: 'asd', thumbnail: 'https://res.cloudinary.com/dvinxey2w/image/upload/v1642719248/ABA/ICONS%2032PX/config-75_nf1q9y.svg', price: 100},
     {title: 'asd', thumbnail: 'https://res.cloudinary.com/dvinxey2w/image/upload/v1642719248/ABA/ICONS%2032PX/config-75_nf1q9y.svg', price: 100},
 ]
